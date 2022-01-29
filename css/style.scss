@@ -1,4 +1,31 @@
 @import "variables";
+@import "global";
 
-header {
+main {
+  header {
+    background-image: url(../images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 2rem;
+    }
+
+    article {
+      margin-top: 9rem;
+
+      h1 {
+        color: getColor("white");
+        border: 2px solid getColor("white");
+        padding: 2rem;
+        line-height: 1;
+        //word-break: break-word;
+      }
+    }
+  }
 }

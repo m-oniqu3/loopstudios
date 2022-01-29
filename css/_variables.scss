@@ -1,7 +1,11 @@
 //Variables
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+
+//Fonts
+$body: "Alata", sans-serif;
+$heading: "Josefin Sans", sans-serif;
 
 * {
   margin: 0;
@@ -10,11 +14,8 @@
   font-family: $body;
 }
 
-//Fonts
-$body: "Alata", sans-serif;
-$heading: "Josefin Sans", sans-serif;
-
 //Sizes
+$fs-lg: 2.9rem;
 
 //Colors
 $colors: (

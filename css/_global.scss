@@ -1,0 +1,11 @@
+//Global
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: $heading;
+  text-transform: uppercase;
+  font-size: $fs-lg;
+}
