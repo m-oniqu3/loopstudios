@@ -1,0 +1,29 @@
+//Variables
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $body;
+}
+
+//Fonts
+$body: "Alata", sans-serif;
+$heading: "Josefin Sans", sans-serif;
+
+//Sizes
+
+//Colors
+$colors: (
+  "white": hsl(0, 0%, 100%),
+  "black": hsl(0, 0%, 0%),
+  "darkgray": hsl(0, 0%, 55%),
+  "verydarkgray": hsl(0, 0%, 41%),
+);
+
+@function getColor($name) {
+  @return map-get($colors, $name);
+}
