@@ -8,4 +8,16 @@ h1 {
   font-family: $heading;
   text-transform: uppercase;
   font-size: $fs-lg;
+  color: getColor("verydarkgray");
+}
+
+section {
+  padding: 4rem 0;
+}
+
+figure {
+  width: 100%;
+  img {
+    width: 100%;
+  }
 }
