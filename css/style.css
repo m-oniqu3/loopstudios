@@ -61,7 +61,7 @@ header nav figure.menu img {
   width: 100%;
 }
 header article {
-  margin-top: 9rem;
+  margin-top: 10rem;
 }
 header article h1 {
   color: white;
@@ -98,4 +98,36 @@ main section .link a {
   border: 1px solid black;
   padding: 0.3rem 2rem;
   letter-spacing: 3px;
+}
+main footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+main footer figure.logo {
+  width: 40%;
+  margin: 0 auto;
+}
+main footer ul {
+  list-style: none;
+  margin: 2rem 0;
+}
+main footer ul li {
+  padding-bottom: 1rem;
+}
+main footer ul li:last-child {
+  padding-bottom: 0;
+}
+main footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+main footer figure.icons img {
+  margin-bottom: 1rem;
+  width: 12%;
+  padding-right: 1rem;
+}
+main footer figure.icons img:last-child {
+  padding-right: 0;
 }/*# sourceMappingURL=style.css.map */

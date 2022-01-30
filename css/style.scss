@@ -29,7 +29,7 @@ header {
   }
 
   article {
-    margin-top: 9rem;
+    margin-top: 10rem;
 
     h1 {
       color: getColor("white");
@@ -77,6 +77,46 @@ main {
         border: 1px solid getColor("black");
         padding: 0.3rem 2rem;
         letter-spacing: 3px;
+      }
+    }
+  }
+
+  footer {
+    background-color: getColor("black");
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+
+    figure.logo {
+      width: 40%;
+      margin: 0 auto;
+    }
+
+    ul {
+      list-style: none;
+      margin: 2rem 0;
+
+      li {
+        padding-bottom: 1rem;
+        &:last-child {
+          padding-bottom: 0;
+        }
+        a {
+          text-decoration: none;
+          color: getColor("white");
+        }
+      }
+    }
+
+    figure.icons {
+      img {
+        margin-bottom: 1rem;
+        width: 12%;
+        padding-right: 1rem;
+
+        &:last-child {
+          padding-right: 0;
+        }
       }
     }
   }
