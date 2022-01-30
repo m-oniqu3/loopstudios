@@ -15,12 +15,17 @@
 h1 {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  font-size: 2.9rem;
-  color: dimgray;
+  font-size: 2.5rem;
+  color: black;
+}
+
+article p {
+  color: #8c8c8c;
+  line-height: 2;
 }
 
 section {
-  padding: 4rem 0;
+  padding-top: 4rem;
 }
 
 figure {
@@ -63,4 +68,34 @@ header article h1 {
   border: 2px solid white;
   padding: 2rem;
   line-height: 1;
+}
+
+main section h1 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+main section article {
+  text-align: center;
+  padding: 2rem 0;
+}
+main section figure.creation figcaption {
+  position: relative;
+  left: 15px;
+  top: 100px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  text-transform: uppercase;
+}
+main section .link {
+  margin: 2rem 0;
+  text-align: center;
+}
+main section .link a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid black;
+  padding: 0.3rem 2rem;
+  letter-spacing: 3px;
 }/*# sourceMappingURL=style.css.map */

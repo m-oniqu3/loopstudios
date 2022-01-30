@@ -42,4 +42,42 @@ header {
 }
 
 main {
+  section {
+    h1 {
+      font-size: $fs-med;
+      padding: 1rem;
+    }
+
+    article {
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    figure.creation {
+      figcaption {
+        position: relative;
+        left: 15px;
+        top: 100px;
+        font-family: $heading;
+        font-size: $fs-sml;
+        color: getColor("white");
+        text-transform: uppercase;
+        //width: 150px;
+        //width: -moz-min-content;
+      }
+    }
+
+    .link {
+      margin: 2rem 0;
+      text-align: center;
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: inherit;
+        border: 1px solid getColor("black");
+        padding: 0.3rem 2rem;
+        letter-spacing: 3px;
+      }
+    }
+  }
 }

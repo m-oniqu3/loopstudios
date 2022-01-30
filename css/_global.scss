@@ -8,11 +8,17 @@ h1 {
   font-family: $heading;
   text-transform: uppercase;
   font-size: $fs-lg;
-  color: getColor("verydarkgray");
+  color: getColor("black");
+}
+
+article p {
+  color: getColor("darkgray");
+  line-height: 2;
+  // text-align: center;
 }
 
 section {
-  padding: 4rem 0;
+  padding-top: 4rem;
 }
 
 figure {
